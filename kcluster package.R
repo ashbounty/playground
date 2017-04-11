@@ -25,7 +25,7 @@ ownKMeans <- function(x, y, nclus=5, dist="euclidean", nrep=500) {
         
         # Implement list with output
         
-        result <- list(input, cluster, sse=Inf, iterations=0)
+        result <- list(input=0, cluster=0, sse=Inf, iterations=0)
         
         
         # Start looping nrep times through seeds
